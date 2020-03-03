@@ -1,0 +1,23 @@
+{
+    "name": "donutsapi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "getdonuts": "ts-node ./index.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    },
+    "devDependencies": {
+        "jsdom": "^16.1.0",
+        "prettier": "^1.19.1",
+        "puppeteer": "^2.1.1",
+        "ts-node": "^8.6.2",
+        "tslib": "^1.10.0",
+        "typescript": "^3.7.5"
+    }
+}
